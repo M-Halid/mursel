@@ -1,0 +1,190 @@
+*{
+    margin: auto;
+    padding: 0;
+   
+}
+body{
+    display: grid;
+    grid-template-columns: auto repeat(1);
+    grid-row: auto;
+}
+
+
+/* header input{
+    display: none;
+    width: 340px;
+    height: 40px;
+    margin-left: 20px;
+    border: 5px solid navy;
+    border-radius: 10px;
+}
+
+header button{
+    display: none;
+    width: 65px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 15px;
+    font-size: 11PX;
+    border-radius: 10px;
+    border:black;
+}
+header button:active {
+    width:70px ;
+    height: 40px;
+    font-weight: bold;
+    transition:  0.001s; */
+
+
+#giris{
+   
+    display: grid;
+   
+    margin-top: 10px ;
+}
+
+#bambu{
+    width:  100%;
+    object-fit: cover;
+   
+   
+}
+
+#panda{
+position: absolute;
+width: 100%;
+z-index: 10;
+
+}
+
+
+
+
+#girisspan{
+    margin-top:30px ;
+    border:2px solid blue;
+    border-radius: 10px;
+    height:29px;
+    margin-bottom: 5px;
+    margin-left: px;
+    padding: 0px 10px;
+    width: 0;
+    border:none;
+    z-index: 9;
+    
+}
+
+#giris input{
+
+margin-left: 19px;
+z-index: 9;
+}
+.sorus{
+   margin-top: 30px;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    z-index: 9;
+    
+}
+#soru1{
+    display: grid;
+
+}
+
+#soru2{
+    display: grid;
+
+}
+
+#send1{
+    width: 120px;
+   margin: auto;
+    margin-top: 30px;
+    z-index: 12;
+}
+
+#send{
+
+   width: 110px;
+   margin: auto;
+    margin-top: 40px;
+    display: none;
+}
+
+
+#send2{
+    display: none;
+    margin: auto;
+    margin-top:40px;
+    width: 110px;
+}
+
+#container{
+    display: none;
+    width: 90%;
+    height:300px ;
+    
+    margin:  auto ;
+    background-color:#7FDBFF;
+    border: 0;
+    border-radius: 20px;
+    /* grid-template-columns:  2fr 2fr;
+    grid-template-rows:2fr 2fr; */
+    
+    
+    
+  
+}
+
+#video video{
+    
+    width: 100%;
+    margin:auto;
+}
+
+
+
+
+/* .box{
+display: none;
+width: 90%;
+height: 90%;
+background-color:rgba(236, 197, 22, 0.712);
+margin:10px 10px;
+
+}
+
+#welcome16{
+padding-top:10px ;
+margin: 5px;
+text-align: center;
+
+width: 100%;
+display: inherit;
+
+}
+#welcome27{
+    padding-top:10px ;
+margin: 5px;
+text-align: center;
+
+width: 100%;
+display: inherit;
+    
+    }
+
+#bingol{
+    width: 100%;
+
+}
+
+#Lion{
+    width: 100%;
+   
+
+}
+
+#uyari{
+    
+    opacity: 0.1;
+} */
