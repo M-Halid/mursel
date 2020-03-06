@@ -75,13 +75,13 @@ function bas(){
 
 var murs=document.querySelector("#isim").value
 murs=murs.toUpperCase()
-if(murs==="MÜRSEL"){
+if(murs==="MURSEL"){
   
   let mursgirdi1=document.querySelector("#girisspan")
   mursgirdi1.style.border="2px solid blue"
   mursgirdi1.style.width="auto"
 
-  mursgirdi1.innerText="Oo Mürsel abi Ojgelmis"
+  mursgirdi1.innerText="Hey Mürsel Welcome"
  
   const show =document.querySelector(".sorus")
   show.style.display="grid"
@@ -99,7 +99,7 @@ if(murs==="MÜRSEL"){
 }
 
 const bas2=function(){
- let al= prompt("Son bi soru :D \nCevrenizdeki insanlar en cok sizi hangi insan dışı varlıga benzetir ? Bitte im Ernst!!!")
+ let al= prompt("Last question :D \n Which animal do you look the most ? Clue=PANDA!!!")
   al=al.toUpperCase()
  if(al==="PANDA"){
    
